@@ -19,7 +19,7 @@ namespace game
 
 		class hook_game_shutting_down {
 		private:
-			static const std::uintptr_t rva = 0x018298E0; // 0x018282E0
+			static const std::uintptr_t rva = 0x0189D450; // 0x018298E0
 
 			struct ret_t : Xbyak::CodeGenerator {
 				ret_t() {
@@ -64,7 +64,7 @@ namespace game
 
 		class hook_console_execute_command {
 		private:
-			static const std::uintptr_t rva = 0x01E2CD7F; // 0x01E2B68F
+			static const std::uintptr_t rva = 0x01EA48DF; // 0x01E2CD7F
 
 			struct ret_t : Xbyak::CodeGenerator {
 				ret_t() {
@@ -109,7 +109,7 @@ namespace game
 
 		class hook_console_output_line {
 		private:
-			static const std::uintptr_t rva = 0x01E35A29; // 0x01E34339
+			static const std::uintptr_t rva = 0x01EAD5B9; // 0x01E35A29
 
 			struct ret_t : Xbyak::CodeGenerator {
 				ret_t() {
