@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "dependencies": [
+    "boost-algorithm",
+    "boost-asio",
+    "boost-beast",
+    "boost-lockfree",
+    "boost-property-tree",
+    "boost-serialization",
+    "boost-url"
+  ],
+  "builtin-baseline": "b216ddff25a1f432870e6c340ce79357049ef86e"
+}
